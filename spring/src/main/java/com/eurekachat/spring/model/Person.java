@@ -15,8 +15,7 @@ import javax.persistence.Id;
 @Getter
 @Setter
 public class Person {
-    @Id
-    private String phone;
+
     private String name;
     private String email;
     private String dateOfBirth;
